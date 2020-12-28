@@ -24,3 +24,29 @@
   }  
   
 }
+
+// thanks Ian Forrest: https://www.gradient-animator.com/
+.css-selector {
+    background: linear-gradient(185deg, #1491ff, #1458ff, #5714ff, #dd14ff, #1458ff, #1491ff);
+    background-size: 1200% 1200%;
+
+    -webkit-animation: buttongrad 17s ease infinite;
+    -moz-animation: buttongrad 17s ease infinite;
+    animation: buttongrad 17s ease infinite;
+}
+
+@-webkit-keyframes buttongrad {
+    0%{background-position:99% 0%}
+    50%{background-position:2% 100%}
+    100%{background-position:99% 0%}
+}
+@-moz-keyframes buttongrad {
+    0%{background-position:99% 0%}
+    50%{background-position:2% 100%}
+    100%{background-position:99% 0%}
+}
+@keyframes buttongrad {
+    0%{background-position:99% 0%}
+    50%{background-position:2% 100%}
+    100%{background-position:99% 0%}
+}
