@@ -1,8 +1,4 @@
-<script>
-  function helloWorld(){
-    alert('Hello World!')  
-}
-</script>
+<script src="/src/bookmarklet.js"></script>
 
 # UofT Transcipt Beautifer
 Generate a beautiful version version of your Unofficial UofT Transcript.  
