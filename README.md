@@ -1,8 +1,8 @@
 # UofT Transcipt Beautifer
 Generate a beautiful version version of your Unofficial UofT Transcript.  
  
-<div class="bookmarklet-button">
-    <a href="javascript:(function(){return(1);})();">🐿️🐿️🐿️</a> (Drag them to your bookmark bar)
+<div class="bookmarklet-button css-selector">
+    <a href="javascript:(function(){alert(suh dude);})();">🐿️🐿️🐿️</a> (Drag them to your bookmark bar)
 </div>
 
 **Step 1:** Drag the squirrels above into your bookmarks bar  
