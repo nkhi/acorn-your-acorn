@@ -10,3 +10,8 @@ Generate a beautiful version version of your UofT Unofficial Transcript
 This widget generates an improved version of the transcript completely on the client-side using scraping and React for templating, which means I never see your data. I'm reachable by email at [hey@curecon.org](mailto:hey@curecon.org).
 
 Inspired by [@arashout](https://github.com/arashout) and his project [ubc-courses](https://github.com/arashout/ubc-courses)
+
+
+## 🤔🤔 How does this work?
+
+When you click the bookmarklet, it calls [`grades.php`](https://github.com/nkhi/adorn-your-acorn/grades.php) which is accessible because it is hosted on [GitHub Pages](http://www.nikhi.ca/adorn-your-acorn). It scrapes your information from the underlying Acorn HTML, and calls to generate `index.html`, the template webpage. This webpage is made of HTML and a single injected React component from `pretty.js`. Everything gets styled by `styles.css`.
