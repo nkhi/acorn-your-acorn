@@ -1,4 +1,4 @@
-# UofT Transcipt Beautifer
+# UofT Transcript Beautifier
 Generate a beautiful version version of your Unofficial UofT Transcript.  
  
 <div class="bookmarklet-button css-selector">
