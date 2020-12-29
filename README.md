@@ -14,9 +14,14 @@ This widget generates an improved version of the transcript completely on the cl
 
 Inspired by [@arashout](https://github.com/arashout) and his project [ubc-courses](https://github.com/arashout/ubc-courses).
 
+## 🧙‍♂️ Before & After  
+
+This will *eventually* be a demo gif.  
+![volcano](https://66.media.tumblr.com/9f86687031b209884083604f2c6dab97/tumblr_px6b1hRRpx1wzvt9qo1_640.gif "some lads")
+
 
 ## 🤔 How does this work?
 
 When you click the bookmarklet, it calls [`grades.php`](https://github.com/nkhi/adorn-your-acorn/blob/main/src/grades.php) which is accessible because this repo is hosted on [GitHub Pages](http://www.nikhi.ca/adorn-your-acorn). It scrapes your information from the underlying Acorn HTML, and calls to generate [`index.html`](https://github.com/nkhi/adorn-your-acorn/blob/main/src/index.html), the template webpage. The generated page contains a single injected React component [`pretty.js`](https://github.com/nkhi/adorn-your-acorn/blob/main/src/pretty.js), and everything styled by [`styles.css`](https://github.com/nkhi/adorn-your-acorn/blob/main/src/styles.css)/[`.js`](https://github.com/nkhi/adorn-your-acorn/blob/main/src/styles.js).
 
-##### Created by [Nikhi Bhambra](https://www.nikhi.ca). Last updated on [12/28/20](https://github.com/nkhi/adorn-your-acorn/commits/main).
+##### Created by [Nikhi Bhambra](https://www.nikhi.ca). Last updated on [12/29/20](https://github.com/nkhi/adorn-your-acorn/commits/main).
