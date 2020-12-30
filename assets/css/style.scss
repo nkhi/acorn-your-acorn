@@ -26,6 +26,17 @@
   
 }
 
+.copy-button {
+  @extend .myclass;
+  width: 65px;
+  margin-left: 10px;
+}
+
+.box {
+  display: flex;
+  place-items: center;
+}
+
 section {
   line-height: 1.55rem;
 }
