@@ -12,12 +12,12 @@ Generate a beautiful version version of your Unofficial UofT Transcript.
     </a>
 </div>
 
-**Step 1:** Drag the squirrels above into your bookmarks bar  
-**Step 2:** Click on the copy icon
+**Step 1:** Drag the Squirrels above into your bookmarks bar  
+**Step 2:** Click on the Copy icon  
 **Step 3:** Log into [Acorn](https://www.acorn.utoronto.ca/) and navigate to the [Academic History](https://acorn.utoronto.ca/sws/#/history/academic) page  
 **Step 4:** Toggle *Complete Academic History* to load your full transcript  
-**Step 5:** Click the squirrels!
-**Step 6:** Hit `F12` and navigate to the Console tab at the top. Paste the code you copied here and click Enter. It may take a moment.
+**Step 5:** Click the squirrels! They'll reorganize the page.
+**Step 6:** Hit `F12` and navigate to the Console tab at the top. Paste the code you copied here and click Enter to initialize the PDF download. It may take a moment.
 
 ## 🧙‍♂️ Before & After  
 
