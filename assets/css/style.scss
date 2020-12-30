@@ -50,6 +50,12 @@ svg {
   height: 26px;
   width: 26px;
   filter: invert(100);
+
+  &:hover{
+    height: 30px;
+    padding: 15px;
+    height: font-size 2s ease;
+  }
 }
 
 .copy-link {
