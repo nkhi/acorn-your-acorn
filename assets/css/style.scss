@@ -51,10 +51,10 @@ svg {
   width: 30px;
   filter: invert(100);
 
-  // &:hover{
-  //   width: 30px;
-  //   transition: width 2s ease;
-  // }
+  &:hover{
+    scale: 1.2;
+    transition: scale 2s ease;
+  }
 }
 
 .copy-link {
