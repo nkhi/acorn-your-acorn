@@ -1,6 +1,6 @@
 # UofT Transcript Beautifier v0.1
 Generate a beautiful version version of your Unofficial UofT Transcript.  
-<i>Please use Firefox 84+ and Chrome 87+ </i>
+<i>Please use Firefox or Chrome.</i>
  
 <div class="box">
     <div class="bookmarklet-button css-selector">
