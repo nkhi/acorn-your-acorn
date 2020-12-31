@@ -28,15 +28,14 @@
 
 .copy-button {
   @extend .bookmarklet-button;
-  width: 40px;
-  height: 40px;
+  width: 64px;
   margin-left: 5px;
   padding: 11px 12px;
 }
 
 .box {
   display: flex;
-  place-items: center;
+  flex-flow: column;
 }
 
 section {
@@ -79,7 +78,14 @@ textarea {
 }
 
 .tooltip-box {
-  visibility: hidden;
+  width: 458px;
+  height: 99px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  display: hidden;
 }
 
 // thanks Ian Forrest: https://www.gradient-animator.com/
