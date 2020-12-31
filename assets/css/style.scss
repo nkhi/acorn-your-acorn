@@ -65,7 +65,10 @@ img {
 
 textarea {
   border-radius: 10px;
-  color: #4d4d4d;
+  border: none;
+  // color: #4d4d4d;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
   resize: vertical;
   overflow: hidden;
   padding: 0; // chrome team sucks
