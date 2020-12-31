@@ -38,9 +38,7 @@ Last updated on [Dec 30th, 2020](https://github.com/nkhi/adorn-your-acorn/commit
 Inspired by [@arashout](https://github.com/arashout) and [ubc-courses](https://github.com/arashout/ubc-courses).  
 Licensed under the MIT License. PRs welcome!  
 
-<div class="css-selector tooltip-box tooltip" data-tooltip="html2pdf.js v0.9.2. Copyright (c) 2020 Erik Koopmans. Released under the MIT License.">
-    <textarea rows=6 cols=61 id="codeblock"></textarea>
-</div>
+<textarea rows=6 cols=61 id="codeblock"></textarea>
 
 <!-- Load the src code for html2pdf.bundle.min.js into a textarea element -->
 <script>
