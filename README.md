@@ -24,7 +24,7 @@ Generate a beautiful version version of your Unofficial UofT Transcript.
 ## 🧙‍♂️ Before & After  
 
 This will *eventually* be a demo gif.  
-<!-- ![volcano](https://66.media.tumblr.com/9f86687031b209884083604f2c6dab97/tumblr_px6b1hRRpx1wzvt9qo1_640.gif "some lads") -->
+![volcano](https://66.media.tumblr.com/9f86687031b209884083604f2c6dab97/tumblr_px6b1hRRpx1wzvt9qo1_640.gif "some lads")
 
 ## 🤔 How does this work?
 
