@@ -28,14 +28,15 @@
 
 .copy-button {
   @extend .bookmarklet-button;
-  width: 64px;
+  width: 40px;
+  height: 40px;
   margin-left: 5px;
   padding: 11px 12px;
 }
 
 .box {
   display: flex;
-  flex-flow: column;
+  place-items: center;
 }
 
 section {
