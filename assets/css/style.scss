@@ -65,8 +65,15 @@ img {
 
 textarea {
   margin-bottom: 20px;
+  border-radius: 10px;
+  border: 2px solid #1491ff;
+  background: #141aff;
+  color: #4d4d4d;
 }
 
+.tooltip-box {
+  width: 463px;
+}
 
 // thanks Ian Forrest: https://www.gradient-animator.com/
  .css-selector {
