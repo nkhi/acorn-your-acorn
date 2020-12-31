@@ -45,7 +45,6 @@ Licensed under the MIT License. PRs welcome!
         document.body.appendChild(el);
         el.select();
         document.execCommand('copy');
-        alert('Copied successfully!');
         document.body.removeChild(el);
     };
 </script>
