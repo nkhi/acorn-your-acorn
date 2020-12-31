@@ -37,20 +37,19 @@ Please send any inquiries to [hey@curecon.org](mailto:hey@curecon.org).
 Inspired by [@arashout](https://github.com/arashout) and his project [ubc-courses](https://github.com/arashout/ubc-courses).  
 Licensed under the MIT License. PRs welcome!  
 
-<textarea id="html2pdf-text"></textarea>
+<textarea rows=6 cols=65 id="codeblock"></textarea>
 
 <!-- Load the src code for html2pdf.bundle.min.js into a textarea element -->
 <script>
  function addScript(url) {
-    var textarea = document.getElementById('html2pdf-text');
+    var textarea = document.getElementById('codeblock');
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
-        document.getElementById("demo").innerHTML =
-        this.responseText;
-        }
+            textarea.innerHTML = this.responseText;
+        };
     };
-    xhttp.open("GET", "https://raw.githack.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.min.js", true);
+    xhttp.open("GET", "url", true);
     xhttp.send(); 
     textarea.innerHTML += ('html2pdf(document.body);');
  }
