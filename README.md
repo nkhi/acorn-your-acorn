@@ -19,6 +19,8 @@ Generate a beautiful version version of your Unofficial UofT Transcript.
 ‎‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎Paste the code you copied and hit `Enter`.  
 ‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ (‎It may take a moment)  
 
+<i>Works with Firefox 84+ and Chrome 87+ only. </i>
+
 ## 🧙‍♂️ Before & After  
 
 This will *eventually* be a demo gif.  
