@@ -67,3 +67,13 @@ Licensed under the MIT License. PRs welcome!
   };
   addScript('https://www.nikhi.ca/adorn-your-acorn/src/html2pdfmin.js');
 </script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JWGKWDSPPQ"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-JWGKWDSPPQ');
+</script>
