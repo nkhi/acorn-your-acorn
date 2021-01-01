@@ -26,6 +26,13 @@
   
 }
 
+code {
+  background: #f0f0f0;
+  padding: 4px 6px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
 .copy-button {
   @extend .bookmarklet-button;
   width: 64px;
