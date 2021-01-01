@@ -35,7 +35,7 @@ code {
 
 #copy-button {
   @extend .bookmarklet-button;
-  width: 64px;
+  width: 80px;
   margin-right: 5px;
   padding: 11px 12px;
   cursor: pointer;
@@ -85,7 +85,7 @@ textarea {
 }
 
 .tooltip-box {
-  width: 458px;
+  width: 430px;
   height: 99px;
   border-radius: 10px;
   margin-bottom: 20px;
