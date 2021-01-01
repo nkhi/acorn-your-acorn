@@ -69,7 +69,8 @@ img {
   max-width: 465px;
 
   &:hover{
-    max-width: 600px;
+    scale: 1.4;
+    transition: scale 3s ease;
   }
 }
 
