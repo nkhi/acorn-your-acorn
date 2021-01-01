@@ -67,6 +67,10 @@ section {
 img {
   border-radius: 10px;
   max-width: 465px;
+
+  &:hover{
+    max-width: 600px;
+  }
 }
 
 #f12-icon {
