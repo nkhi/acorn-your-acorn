@@ -36,8 +36,10 @@ code {
 #copy-button {
   @extend .bookmarklet-button;
   width: 64px;
-  margin-left: 5px;
+  margin-right: 5px;
   padding: 11px 12px;
+  cursor: pointer;
+  height: 80px;
 }
 
 .box {
@@ -75,13 +77,11 @@ textarea {
   border: none;
   // color: #4d4d4d;
   color: #fff;
-  background: rgba(255, 255, 255, 0.1);
-  resize: none;
-  overflow: hidden;
-  -webkit-padding-after: 8px;
-  -webkit-padding-before: 8px;
-  -webkit-padding-start: 8px;
-  -webkit-padding-end: 8px;
+  overflow-y: scroll;
+  // -webkit-padding-after: 8px;
+  // -webkit-padding-before: 8px;
+  // -webkit-padding-start: 8px;
+  // -webkit-padding-end: 8px;
 }
 
 .tooltip-box {
