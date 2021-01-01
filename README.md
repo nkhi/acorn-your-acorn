@@ -9,7 +9,7 @@ Generate a beautiful version version of your Unofficial UofT Transcript.
     <div id="scriptbox">
         <div onClick="copyPrintPDFCode();" class="css-selector" id="copy-button">Click</div>
         <div class="tooltip-box tooltip" data-tooltip="html2pdf.js v0.9.2. Copyright (c) 2020 Erik Koopmans. Released under the MIT License.">
-            <textarea rows=6 cols=61 id="codeblock"></textarea>
+            <textarea rows=6 cols=50 id="codeblock"></textarea>
         </div>
     </div>
 </div>
