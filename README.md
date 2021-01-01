@@ -3,7 +3,7 @@
 Generate a beautiful version version of your Unofficial UofT Transcript.  
 Please use Firefox or Chrome on a desktop.
 
-## 🐿️ Instructions
+## 🐿️ Getting Started
 
 <div class="box">
     <div class="bookmarklet-button css-selector">
