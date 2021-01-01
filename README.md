@@ -1,6 +1,6 @@
 <!-- <h1 id='hed'>UofT Transcript Beautifier <span>v0.1</span></h1> -->
 # UofT Transcript Beautifier <span>v0.1</span>
-Generate a beautiful version version of your Unofficial UofT Transcript.  
+Generate a better version version of your Unofficial UofT Transcript.  
 Please use Chrome or Firefox on a desktop.
 
 ## 🐿️ Getting Started
@@ -35,7 +35,7 @@ This will *eventually* be a demo gif.
 
 ## 🤔 How does this work?
 
-This tool is split into two parts, a bookmarklet which generates the better transcript print-out and a chunk of Javascript code which converts your open browser tab into a  PDF. Every part of this tool uses client-side Javascript execution, <ins>which means I never see your data</ins>.
+This tool is split into two parts, a bookmarklet which generates the better transcript print-out, and a chunk of Javascript code which converts your open browser tab into a  PDF. Every part of this tool uses client-side Javascript execution, <ins>which means I never see your data</ins>.
 
 1. When you click on the squirrels, it executes a chunk of code from [`bookmarklet.js`](https://github.com/nkhi/adorn-your-acorn/blob/main/src/bookmarklet.js) on top of your open tab, which arranges and styles the data from Acorn to be printer ready.
 2. When you press F12 and run the copied code chunk, you are supplying the browser with the source code for [html2pdf](https://ekoopmans.github.io/html2pdf.js/) by [eKoopmans](https://github.com/eKoopmans/html2pdf.js), which is a great open-source library for converting your viewport into a PDF.

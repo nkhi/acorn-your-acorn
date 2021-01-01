@@ -50,7 +50,9 @@ if (window.location.href == 'https://acorn.utoronto.ca/sws/#/history/academic') 
             scnd.style.textAlign = 'right';
             scnd.style.marginTop = '0.5rem';       
             scnd.style.paddingRight = '1rem';
-            scnd.style.opacity='0.6';
+            scnd.style.opacity='0.45';
+            document.getElementsByTagName('h1')[0].style.color='#fff';
+            document.getElementsByTagName('h4')[0].style.color='#fff';
             regh = document.getElementsByClassName('regHistoryHeader blok pre-elem')[0];
             regh.style.margin = '6px 0 13px';
             regh.style.paddingLeft = '1rem';
