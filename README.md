@@ -1,8 +1,4 @@
-# UofT Transcript Beautifier <span>v0.1</span>
-<svg id='squiggle' viewBox='0 0 100 4'>
-    <style type='text/css'>.st0{animation:shift 3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}</style>
-    <path fill='none' stroke='#333' stroke-width='0.65' class='st0' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/>
-</svg>
+<h1 id='hed'>UofT Transcript Beautifier <span>v0.1</span></h1>
 Generate a beautiful version version of your Unofficial UofT Transcript.  
 <i>Please use Firefox or Chrome.</i>
  
