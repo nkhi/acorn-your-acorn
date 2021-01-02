@@ -19,7 +19,7 @@ Please use Chrome or Firefox on a desktop.
 </div>
 
 **Step 1:** Drag the Squirrels into your Bookmarks Bar (`Cmd+Shift+B`).  
-**Step 2:** Click the Copy icon to get the [html2pdf](https://ekoopmans.github.io/html2pdf.js/) script.  
+**Step 2:** Click the Copy icon to get the [script](https://ekoopmans.github.io/html2pdf.js/).  
 **Step 2:** Log into [Acorn](https://www.acorn.utoronto.ca/) and navigate to the [Academic History](https://acorn.utoronto.ca/sws/#/history/academic) page.  
 **Step 3:** Toggle *Complete Academic History* to load your full transcript.  
 **Step 4:** Click the squirrels!  
