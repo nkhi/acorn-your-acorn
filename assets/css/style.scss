@@ -8,7 +8,7 @@
   padding: 20px 15px;
   justify-content: center;
   place-items: center;
-  width: 350px;
+  width: 435px;
   border-radius: 10px;
   margin-bottom: 10px;
   color: white;
@@ -37,7 +37,7 @@ code {
 #copy-button {
   @extend .bookmarklet-button;
   width: 80px;
-  margin-left: 5px;
+  margin-right: 5px;
   padding: 11px 12px;
   cursor: pointer;
   height: 50px;
@@ -78,13 +78,12 @@ textarea {
 }
 
 .tooltip-box {
-  width: 490px;
+  width: 435px;
   height: 200px;
   border-radius: 10px;
   display: flex;
   place-items: center;
   margin-bottom: 10px;
-  display: none;
 }
 
 span {
