@@ -44,33 +44,8 @@ Last updated on [Jan 1st, 2021](https://github.com/nkhi/adorn-your-acorn/commits
 Inspired by [@arashout](https://github.com/arashout) and [ubc-courses](https://github.com/arashout/ubc-courses).  
 Licensed under the MIT License. PRs welcome!  
 
-<!-- Load the src code for html2pdf.bundle.min.js into a textarea element -->
+<!-- Define page scripts -->
+<script src='/src/script.js'></script>
 <script>
-  function addScript(url) {
-    var textarea = document.getElementById('codeblock');
-    var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-            textarea.innerHTML = this.responseText;
-        };
-    };
-    xhttp.open("GET", url, true);
-    xhttp.send(); 
-  };
-  function copyPrintPDFCode() {
-        const el = document.getElementById('codeblock');
-        el.select();
-        document.execCommand('copy');
-        alert('Script Copied Successfully');
-  };
-  function hide(){
-      q=document.getElementByTagName('textarea')[0];
-      l=document.getElementById('copy-button');
-      if (l.title == "you're looking at the script you just copied"){
-          q.style.visibility='hidden';
-          l.title= "i pretend i simply do not see it"
-      } else{ 
-          q.visibility='visible';
-  };
-  addScript('https://www.nikhi.ca/adorn-your-acorn/src/html2pdfmin.js');
+    addScript('https://www.nikhi.ca/adorn-your-acorn/src/html2pdfmin.js');
 </script>
