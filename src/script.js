@@ -12,7 +12,7 @@ function addScript(url) {
     xhttp.send(); 
   };
 
-  // Enables copy to clipboard once the textbox request had finished
+  // Enables copy to clipboard once the textbox request has finished and is visible
 
   function copyPrintPDFCode() {
         const el = document.getElementById('codeblock');
@@ -21,7 +21,7 @@ function addScript(url) {
         alert('Script Copied Successfully');
   };
 
-  // Click to hide
+  // Click to hide code bc ew
 
 function hide(){
     q=document.getElementByTagName('textarea')[0];
