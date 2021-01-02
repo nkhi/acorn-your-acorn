@@ -17,6 +17,7 @@
   a {
     font-size: 1.25rem;
     padding-right: 4px;
+    cursor: pointer;
     
     &:hover{
       font-size: 1.4rem;
@@ -90,11 +91,11 @@ span {
   margin-left: 2px;
 }
 
-// #scriptbox {
-//   display: flex;
-//   flex-flow: row;
-//   margin-bottom: 8px;
-// }
+#scriptbox {
+  display: flex;
+  flex-flow: row;
+  margin-bottom: 8px;
+}
 
 svg {
   filter: invert(100);
