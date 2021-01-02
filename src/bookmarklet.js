@@ -1,3 +1,8 @@
+// Adorn Your Acorn v.10
+// https://www.nikhi.ca/adorn-your-acorn/
+// Written by github.com/nkhi/
+// Published: Jan 1st, 2021
+
 if (window.location.href == 'https://acorn.utoronto.ca/sws/#/history/academic') {
     v = document.getElementsByClassName('hidden-print');
     if (v.length > 0) {
