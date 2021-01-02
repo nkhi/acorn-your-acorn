@@ -9,10 +9,10 @@ Please use Chrome or Firefox on a desktop.
         <a onClick="copyPrintPDFCode();">🐿️🐿️🐿️</a> (Click them to copy the script)
     </div>
     <div id="scriptbox">
-        <div class="css-selector" id="copy-button" title="you're looking at the script you just copied">
+        <div onClick='hide();' class="css-selector" id="copy-button" title="you're looking at the script you just copied">
             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#000000" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><path d="M127.99414,55.99231c-80,0-112,72.00781-112,72.00781s32,71.99219,112,71.99219,112-71.99219,112-71.99219S207.99414,55.99231,127.99414,55.99231Zm0,112.0083a40,40,0,1,1,40-40A40.0001,40.0001,0,0,1,127.99414,168.00061Z" opacity="0.2"></path><path d="M127.99414,55.99219c-80,0-112,72.00781-112,72.00781s32,71.99219,112,71.99219,112-71.99219,112-71.99219S207.99414,55.99219,127.99414,55.99219Z" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></path><circle cx="127.99414" cy="128.00061" r="40" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></circle></svg>
         </div>
-        <div onClick='hide();' class="tooltip-box tooltip-bottom" data-tooltip="adornyouracorn v1.0 + html2pdf.js v0.9.2 [Copyright (c) 2020 Erik Koopmans]">
+        <div class="tooltip-box tooltip-bottom" data-tooltip="adornyouracorn v1.0 + html2pdf.js v0.9.2 [Copyright (c) 2020 Erik Koopmans]">
             <textarea rows=4 cols=42 id="codeblock"></textarea>
         </div>
     </div>
