@@ -1,9 +1,3 @@
-<head>
-<!-- Define page scripts -->
-    <script src='https://www.nikhi.ca/adorn-your-acorn/src/script.js'></script>
-    <script> addScript('https://www.nikhi.ca/adorn-your-acorn/src/html2pdfmin.js'); </script>
-</head>
-
 # UofT Transcript Beautifier <span>v1.0</span>
 Generate a better version version of your Unofficial UofT Transcript.  
 Please use Chrome or Firefox on a desktop.
@@ -50,3 +44,8 @@ Last updated on [Jan 1st, 2021](https://github.com/nkhi/adorn-your-acorn/commits
 Questions or concerns? You can reach me at [hey@curecon.org](mailto:hey@curecon.org).   
 Inspired by [@arashout](https://github.com/arashout) and [ubc-courses](https://github.com/arashout/ubc-courses).   
 Licensed under the MIT License. PRs welcome!  
+
+
+<!-- Define page scripts -->
+<script src='https://www.nikhi.ca/adorn-your-acorn/src/script.js'></script>
+<script> addScript('https://www.nikhi.ca/adorn-your-acorn/src/html2pdfmin.js'); </script>
