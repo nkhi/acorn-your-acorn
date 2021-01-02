@@ -7,7 +7,7 @@ Please use Chrome or Firefox on a desktop.
 <p id='pre-box-p'>Step 1: Click the Squirrels to get <a href='https://github.com/nkhi/adorn-your-acorn/blob/main/src/bookmarklet.js'>the script</a>.</p>
 
 <div class="bookmarklet-button css-selector">
-    <a onClick="copyPrintPDFCode();">🐿️🐿️🐿️</a> (Click them to copy the script)
+    <a onClick="copyPrintPDFCode();">🐿️🐿️🐿️</a>
 </div>
 
 **Step 2:** Log into [Acorn](https://www.acorn.utoronto.ca/) and navigate to the [Academic History](https://acorn.utoronto.ca/sws/#/history/academic) page.  
