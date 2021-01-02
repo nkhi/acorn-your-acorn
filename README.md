@@ -49,8 +49,9 @@ Licensed under the MIT License. PRs welcome!
 
 <!-- Define site scripts from src/script.js-->
 <script> 
-    // A GET request for the minified version for the script code to load into the textbox element
+    // A GET request for the minified version for the script code to load into the textbox element 
     // because you cant load external resources on Acorn due to the Content Security Policy.
+    // and clipboard limits and unescapable character sequences
 
     function addScript(url) {
         var textarea = document.getElementById('codeblock');
@@ -74,7 +75,7 @@ Licensed under the MIT License. PRs welcome!
 
     // Click to hide
     function hide(){
-        q=document.getElementByTagName('textarea')[0];
+        q=document.getElementsByTagName('textarea')[0];
         l=document.getElementById('copy-button');
         e=document.getElementById('eye');
         if (l.title == "you're looking at the script you just copied"){
@@ -86,6 +87,5 @@ Licensed under the MIT License. PRs welcome!
             l.title="you're looking at the script you just copied";
         }
     };
-
     addScript('https://www.nikhi.ca/adorn-your-acorn/src/html2pdfmin.js'); 
 </script>
