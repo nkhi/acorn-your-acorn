@@ -22,7 +22,7 @@ Please use Chrome or Firefox on a desktop.
 
 ## 🧐 What does this do?
 
-- Restyles transcript elements to reduce empty space and shorten the page length
+- Restyles transcript to reduce whitespace and shorten page length
 - Improves readability by adding a visual element hierarchy
 - Gives the option to declare your college or campus
 
