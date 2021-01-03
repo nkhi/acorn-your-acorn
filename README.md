@@ -20,6 +20,12 @@ Please use Chrome or Firefox on a desktop.
 
 <img src="/adorn-your-acorn/assets/comp.png" class="tooltip" data-tooltip='Acorn version vs. Beautified version' alt="comparisson" title="Beautified version vs. Acorn output">
 
+## 🧐 What does this do?
+
+- Restyles transcript elements to reduce empty space and shorten the page length
+- Improves readability by adding a visual element hierarchy
+- Gives the option to declare your college or campus
+
 ## 🤔 How does this work?
 
 This script combines two parts, a bookmarklet<sup><a href='https://github.com/nkhi/adorn-your-acorn/blob/main/src/bookmarklet.js'>1</a></sup> which generates a better transcript output by restyling the page's elements, and a chunk which supplies your browser with the source code for html2pdf.js<sup><a href='https://ekoopmans.github.io/html2pdf.js/'>2</a></sup>, which is a great open-source library for converting your open browser tab into a PDF. Every part of this tool uses client-side Javascript execution, <ins>which means I never see your data</ins>. Check it out below.
